@@ -55,3 +55,13 @@ The Power BI report is structured into the following analytical pages:
 **Page 11: Sales Flow and Contribution Analysis**
 * **Question:** What contributes to revenue changes, and how do categories perform over time?
 * **Visuals:** A Waterfall Chart to break down revenue contributions and a Ribbon Chart to show how category rankings change over time.
+
+  ## Interactive Features
+
+To enhance the user experience, I have implemented several interactive features:
+* **Slicers & Filters:** Dynamic slicers for `Month`, `Product Category`, and `Customer Location` are available to filter the data across the report.
+* **Drillthrough:** I have configured drillthrough capabilities allowing users to navigate from a high-level summary to a detailed page. For example, right-clicking the Donut Chart on the Overview page allows a drillthrough to the Shipping Performance or Customer Feedback pages.
+* **Page Navigation:** I designed a user-friendly navigation system with `Next`, `Previous`, and `Home` buttons on each page. The homepage also features a table of contents for direct navigation to any report page.
+* **Bookmarks:** Bookmarks are used with a `Reset` button to allow users to easily clear all filters and return to the default view of the page.
+
+---
